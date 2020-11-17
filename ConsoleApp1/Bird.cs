@@ -9,7 +9,7 @@ namespace ConsoleApp1
         public string Name
         { get; set; }
 
-        public override string ToString() => Name;
+        public override string ToString() => Name; //Определяем  имя
         public Bird(string name, DateTime birthday)
         {
             Name = name;
